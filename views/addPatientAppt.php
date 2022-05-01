@@ -10,7 +10,7 @@
                 <form action="<?= isset ($_GET['id']) ?'?id='.$_GET['id'] : htmlspecialchars($_SERVER['PHP_SELF'])?>" method="POST"> 
                     <div class="card">
 
-                        <div class="row justify-content-center mb-4">
+                        <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <label for="lastname" class="fw-bold">Nom*</label>
                                 <input 
@@ -40,7 +40,7 @@
                             </div>
                         </div>
 
-                        <div class="row justify-content-center mb-4">
+                        <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <label for="birthdate" class="fw-bold">Date de naissance*</label>
                                 <input 
@@ -69,7 +69,7 @@
                             </div>
                         </div>
 
-                        <div class="row justify-content-center mb-4">
+                        <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <label for="mail" class="fw-bold">Email*</label>
                                 <input 
@@ -84,7 +84,7 @@
                             </div>
                         </div>
 
-                        <div class="row justify-content-center mb-4">
+                        <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <label for="date" class="fw-bold">Choisir une date*</label>
                                 <input name="date" 
